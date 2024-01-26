@@ -1,0 +1,101 @@
+/* Write CSS here */
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  padding: 20px;
+  margin: 40px;
+  border: solid #f3eeee 2px;
+  height: 90vh;
+  padding-top: 50px;
+}
+
+.heading {
+  font-size: 27px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-left: 25px;
+  color: #333333;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: solid #f3eeee 2px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  margin-right: 600px;
+}
+
+@media screen and (min-width: 1000px) {
+  .bg {
+    margin-right: 500px;
+    padding-left: 80px;
+  }
+  .card {
+    margin-right: 550px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg {
+    margin-right: 0px;
+    height: 55vh;
+    margin: 20px;
+    padding-top: 0px;
+  }
+  .card {
+    margin-right: 150px;
+  }
+  .heading {
+    padding-left: 15px;
+  }
+}
+
+.time {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+}
+
+.start {
+  background-color: #1db05f;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 8px;
+  margin-right: 15px;
+  margin-left: 10px;
+  border: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.stop {
+  background-color: #ef0d36;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 8px;
+  margin-right: 15px;
+  border: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.reset {
+  background-color: #eaa800;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 8px;
+  margin-right: 15px;
+  border: none;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
